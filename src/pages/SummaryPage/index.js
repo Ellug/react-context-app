@@ -8,7 +8,7 @@ const SummaryPage = () => {
       <form>
         <input
           type='checkbox'
-          checked={checked}
+          defaultChecked={checked}
           id='confirm-checkbox'
           onClick={(e) => setChecked(e.target.checked)}
          />{" "}
